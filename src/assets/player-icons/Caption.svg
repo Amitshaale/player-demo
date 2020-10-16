@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="450px" height="50px" viewBox="0 0 450 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Caption</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Version-3.1-Documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Player-Components" transform="translate(-62.000000, -605.000000)">
+            <g id="Caption" transform="translate(62.000000, 605.000000)">
+                <rect id="Rectangle" fill-opacity="0.8" fill="#000000" x="0" y="0" width="450" height="25" rx="4"></rect>
+                <rect id="Rectangle-Copy-3" fill-opacity="0.8" fill="#000000" x="110" y="25" width="230" height="25" rx="4"></rect>
+                <text id="Lorem-Ipsum-has-been" font-family="SFProText-Regular, SF Pro Text" font-size="17" font-weight="normal" letter-spacing="-0.409999996" fill="#FFFFFF">
+                    <tspan x="18.118164" y="19">Lorem Ipsum has been the industry's standard dummy</tspan>
+                </text>
+                <text id="text-ever-since-the" font-family="SFProText-Regular, SF Pro Text" font-size="17" font-weight="normal" letter-spacing="-0.409999996" fill="#FFFFFF">
+                    <tspan x="127.15959" y="44">text ever since the 1500s.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

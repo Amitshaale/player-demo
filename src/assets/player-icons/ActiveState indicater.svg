@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="7px" viewBox="0 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>ActiveState indicater</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Version-3.1-Documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Player-Components" transform="translate(-395.000000, -931.000000)" fill="#E34245" fill-rule="nonzero">
+            <path d="M395.472656,937.210938 C395.628906,937.210938 395.753906,937.144531 395.917969,937.0625 L400.9375,934.628906 C401.269531,934.464844 401.375,934.3125 401.375,934.105469 C401.375,933.898438 401.269531,933.75 400.9375,933.585938 L395.917969,931.148438 C395.75,931.066406 395.625,931 395.46875,931 C395.179688,931 395,931.21875 395,931.558594 L395.003906,936.652344 C395.003906,936.992188 395.183594,937.210938 395.472656,937.210938 Z" id="ActiveState-indicater"></path>
+        </g>
+    </g>
+</svg>

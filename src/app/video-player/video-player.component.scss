@@ -1,0 +1,155 @@
+.video-player {
+    height: 100vh;
+    width: 100vw;
+
+    .video-player-container {
+        height: 100%;
+        width: 100%;
+
+        .video-player-inner {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: #000000;
+
+            video {
+                width: 100%;
+                height: 100%;
+            }
+
+            .video-controls {
+                // position: absolute;
+                min-height: 50px;
+                width: 100%;
+                z-index: 999;
+
+                .video-controls-inner {
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 25px 50px;
+
+                    .video-title {
+                        h1 {
+                            margin: 0;
+                            color: #ffffff;
+                            font-size: 20px;
+                            text-align: left;
+                        }
+                    }
+                    .video-controls-option {
+                        button {
+                            background-color: transparent;
+                            border: 0;
+                            outline: none;
+                            color: #ffffff;
+                            cursor: pointer;
+                            margin: 0 8px;
+                            opacity: 0.8;
+                            transition: all 0.3s;
+
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    .video-center-bar {
+                        width: 320px;
+                        margin: 0 auto;
+                        text-align: center;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+
+                .video-progress-bar {
+                    padding: 5px 50px;
+                    height: auto;
+                    transition: all 0.3s;
+
+                    .bar {
+                        background-color: #808080;
+                        height: 3px;
+                        width: 100%;
+                        transition: all 0.3s;
+                        cursor: pointer;
+
+                        .fill {
+                            // width: 10%;
+                            height: 3px;
+                            width: 0px;
+                            background-color: red;
+                            transition: all 0.3s;
+                            cursor: pointer;
+                        }
+                    }
+
+                    &:hover {
+                        .bar {
+                            height: 5px;
+
+                            .fill {
+                                height: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .top {
+                top: 0;
+            }
+            .bottom {
+                bottom: 0;
+            }
+        }
+
+    }
+}
+
+.video-overlay {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #00000080;
+    display: none;
+
+    .video-controls-overlay {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+
+#custom-seekbar
+{  
+  cursor: pointer;
+  height: 10px;
+  margin-bottom: 10px;
+  outline: thin solid orange;
+  overflow: hidden;
+  position: relative;
+  width: 400px;
+}
+#custom-seekbar span
+{
+  background-color: orange;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 0px;
+}
+
+/* following rule is for hiding Stack Overflow's console  */
+.as-console-wrapper{ display: none !important;}

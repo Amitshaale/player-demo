@@ -1,0 +1,93 @@
+<div class="video-player">
+
+    <div class="video-player-container" id="videoContainer">
+
+        <div class="video-player-inner">
+
+
+            <video id="video" class="iframePreview" autoplay type="application/x-mpegURL"></video>
+            <!-- <div id="custom-seekbar">
+                <span></span>
+            </div> -->
+
+            <!-- <video onloadedmetadata="this.muted=true" autoplay loop preload="auto" playsinline="true"
+                disablePictureInPicture="true">
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                    type="video/mp4">
+            </video> -->
+
+            <div class="video-overlay">
+                <div class="video-controls-overlay">
+
+                    <div class="video-controls top">
+                        <div class="video-controls-inner">
+                            <div class="video-title">
+                                <h1>Title</h1>
+                            </div>
+                            <div class="video-controls-option">
+                                <button>
+                                    <img src="assets/player-icons/Settings.svg">
+                                </button>
+                                <button>
+                                    <img src="assets/player-icons/Callout/Caption.svg">
+                                </button>
+                                <button>
+                                    <img src="assets/player-icons/Screen-cast.svg">
+                                </button>
+                                <button id="pip">
+                                    <img src="assets/player-icons/Floting-Player.svg">
+                                </button>
+                                <button id="fullScreen" title="FullScreen Toggle">
+                                    <img src="assets/player-icons/FullScreen.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-controls center">
+                        <div class="video-controls-inner">
+                            <div class="video-controls-option video-center-bar">
+                                <button (click)="backward();">
+                                    <img src="assets/player-icons/Backward.svg">
+                                </button>
+                                <button (click)="togglePlay()">
+                                    <img
+                                        [src]="playing != true ? 'assets/player-icons/Play.svg' : 'assets/player-icons/Pause.svg'">
+                                </button>
+                                <button (click)="forward();">
+                                    <img src="assets/player-icons/Forward.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="video-controls bottom">
+                        <div class="video-progress-bar">
+                            <div class="bar">
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="video-controls-inner">
+                            <div class="video-controls-option">
+                                <button>
+                                    <img src="assets/player-icons/Next.svg">
+                                </button>
+                                <button>
+                                    <img src="assets/player-icons/Repeat.svg">
+                                </button>
+                                <button>
+                                    <img src="assets/player-icons/Voulme/Level 80-100_.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>

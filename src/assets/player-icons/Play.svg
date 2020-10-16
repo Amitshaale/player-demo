@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="60px" viewBox="0 0 54 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Play</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Version-3.1-Documentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.8">
+        <g id="Player-Components" transform="translate(-222.000000, -719.000000)" fill="#F9F9F9" fill-rule="nonzero">
+            <path d="M227.03125,778.519531 C228.4375,778.519531 229.632812,777.957031 231.039062,777.148438 L272.03125,753.453125 C274.949219,751.730469 275.96875,750.605469 275.96875,748.742188 C275.96875,746.878906 274.949219,745.753906 272.03125,744.066406 L231.039062,720.335938 C229.632812,719.527344 228.4375,719 227.03125,719 C224.429688,719 222.8125,720.96875 222.8125,724.027344 L222.8125,773.457031 C222.8125,776.515625 224.429688,778.519531 227.03125,778.519531 Z" id="Play"></path>
+        </g>
+    </g>
+</svg>
